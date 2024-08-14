@@ -1,7 +1,8 @@
 # Extrema detection - methods
 
 
-A project for CXFDS WFWR2Rd ergerg  
+Comparison of various methods used to detect local highs and lows in time series in the context of automated trend analysis.
+This repository is in addition to an article posted on Medium.com.
 
 ## Quick Start
 
@@ -32,12 +33,6 @@ pip install pandas
 pip install scipy
 pip install yfinance
 ```
-
-
-# Refferences
-
-
-
 
 ## License
 
