@@ -6,7 +6,7 @@ This repository is in addition to an article posted on Medium.com.
 
 ## Quick Start
 
-To run any of scrpts, simply run:
+Simply run any of 01* scripts:
 
 ```bash
 python 01_argrelmax.py
