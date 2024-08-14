@@ -19,8 +19,8 @@ python 01_argrelmax.py
 Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/hagopj13/node-express-boilerplate.git
-cd node-express-boilerplate
+git clone --depth 1 https://github.com/hagopj13/extrema-detection-methods.git
+cd extrema-detection-methods
 
 ```
 
