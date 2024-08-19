@@ -4,14 +4,6 @@
 Comparison of various methods used to detect local highs and lows in time series in the context of automated trend analysis.
 This repository is in addition to an article posted on [Medium.com](https://medium.com).
 
-## Quick Start
-
-Simply run any of 01* scripts, e.g.:
-
-```bash
-python 01_argrelmax.py
-```
-
 
 ## Installation
 
@@ -31,6 +23,14 @@ pip install numpy
 pip install pandas
 pip install scipy
 pip install yfinance
+```
+
+## Quick Start
+
+Simply run any of 01* scripts, e.g.:
+
+```bash
+python 01_argrelmax.py
 ```
 
 ## License
