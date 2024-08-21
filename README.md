@@ -2,7 +2,7 @@
 
 
 Comparison of various methods used to detect local highs and lows in time series in the context of automated trend analysis.
-This repository is in addition to an article posted on [Medium.com]([https://medium.com](https://medium.com/@marszyprow/ebfe0216b92d)).
+This repository is in addition to an article posted on [Medium.com]([https://medium.com/@marszyprow/ebfe0216b92d]).
 
 
 ## Installation
