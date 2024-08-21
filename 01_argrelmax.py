@@ -5,7 +5,7 @@ import extremas as ex
 
                     
 # get data, e.g. Apple, last 2 years
-df = ex.load_data("WMT", "2y")
+df = ex.load_data("APPL", "2y")
 
 # calculate extremas
 order = 7
