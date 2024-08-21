@@ -113,21 +113,17 @@ def clean_extremas(df):
 
             if next_ok and prev_ok:
                 d.append(df.Date[i])
-                e.append(df.Extrema[i])        
+                e.append(df.Extrema[i])     
+
     d.append(df.Date[len(df)-1])
     e.append(df.Extrema[len(df)-1])                      
     dfr = pd.DataFrame({'Date': d, 'Extrema':e})
     return dfr 
 
 
-
-def define_sliders(length, title):
-    steps = []
-    for i in range(length):
-        step = dict (method="update",args=[{"visible": [False] * (length)},{"title": title+": " + str(i)}],  )    
-        step["args"][0]["visible"][0] = True  
-        step["args"][0]["visible"][i] = True  
-        steps.append(step)
-    return [dict(active=10,currentvalue={"prefix": title+": "},pad={"t": 50},steps=steps)]
-
+def get_break_days (df):
+    dt_all = pd.date_range(start=df['Date'].iloc[0],end=df['Date'].iloc[-1])
+    dt_obs = [d.strftime("%Y-%m-%d") for d in pd.to_datetime(df['Date'])]
+    dt_breaks = [d for d in dt_all.strftime("%Y-%m-%d").tolist() if not d in dt_obs]    
+    return dt_breaks
 
